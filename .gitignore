@@ -9,3 +9,4 @@ npm-debug.log
 .vscode/
 gatsby-starter-lumen.iml
 yarn.lock
+out/
