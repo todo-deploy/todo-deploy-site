@@ -8,6 +8,7 @@ export default ({ children }) => {
   return (
     <div>
       <Head>
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
         <link
           rel='stylesheet'
           href='https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css'
