@@ -4,6 +4,7 @@ script:
   - npm run build
   - npm run export
   - touch out/.nojekyll
+  - echo "tododeploy.com" > out/CNAME
 
 cache:
   directories:
