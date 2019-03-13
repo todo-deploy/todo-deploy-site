@@ -1,0 +1,33 @@
+import Layout from '../components/Layout'
+import Jumbo from '../components/Jumbo'
+
+export default () => { 
+  return (<Layout>
+
+      <Jumbo />
+      <h3>Todo what??</h3>
+
+      <b>Todo-deploy</b> is a collection of provisioning techniques. It has been inspired by <a href="http://todomvc.com">TodoMVC</a> and <a href="http://todobackend.com">todo-backend</a> and borrows components (with slight modifications) from those projects.
+      <img src="static/todo-stack.jpg" />
+
+      The purpose of the project is to display a wide range of provisioning implementations of a full-stack application.
+
+      <h3>Components</h3>
+
+      <h4>Client</h4>
+
+      Client is a simple backbone TodoMVC implementation, slightly modified to allow backend calls. See the code <a href="https://github.com/danielsiwiec/todo-client">here</a>.
+
+	    <h4>Backend</h4>
+
+      node.js + Express API. Code available <a href="https://github.com/danielsiwiec/todo-backend-node-coffee-mongo/tree/local-db">here</a>. <b>Use the local-db branch!!</b>
+
+      <h4>Database</h4>
+      Mongodb
+
+	    <h3>Integration</h3>
+      The diagram below displays communication between the components.
+	    <img src="static/todo-diagram.jpg" />
+
+    </Layout >)
+}
