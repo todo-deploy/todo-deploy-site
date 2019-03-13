@@ -11,7 +11,7 @@ export default () => {
 			</ul>
 
 			<h2>Contributing</h2>
-			Once an implementation is ready, it can be added to the list via a pull request on <a href="https://github.com/danielsiwiec/todo-deploy-site/blob/gh-pages/data/implementations.js">this file</a>.
+			Once an implementation is ready, it can be added to the list via a pull request on <a href="https://github.com/danielsiwiec/todo-deploy/blob/master/data/implementations.json">this file</a>.
 		</Layout>
 	)
 }
