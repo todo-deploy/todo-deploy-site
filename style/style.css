@@ -20,8 +20,11 @@ nav {
   margin-bottom: 20px;
 }
 
-.implementation-button {
-	margin: 0 10px 0 10px;
+
+
+.implementation-buttons {
+  margin: 0 10px 0 10px;
+  float: right;
 }
 
 .tags {

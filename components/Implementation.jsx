@@ -6,7 +6,7 @@ export default ({ impl }) => {
     <div>
       <h3>{impl.name}
         <span className="implementation-buttons">
-          <Button href={impl.github} className="implementation-button" target="_blank">
+          <Button href={impl.github} target="_blank">
             <FaGithub /> Code
 		    	</Button>
           <Button disabled={true}>
