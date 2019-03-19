@@ -1,12 +1,31 @@
-[{
-	"name": "Vagrant-Ansible on CentOS 6.5",
-	"github": "https://github.com/todo-deploy/todo-deploy-vagrant-ansible",
-	"description": "Spins off a CentOS VM using vagrant, and provisions the app with vagrant-ansible provisioner.",
-	"tags": ["nginx", "ansible", "vagrant", "centos"]
-},
-{
-	"name": "Docker with Docker Compose",
-	"github": "https://github.com/todo-deploy/todo-deploy-docker-compose",
-	"description": "Runs two containers - one for the application, one for mongo, using docker-compose",
-	"tags": ["docker", "docker-compose"]
-}]
+[
+	{
+		"name": "Vagrant-Ansible on CentOS 6.5",
+		"github": "https://github.com/todo-deploy/todo-deploy-vagrant-ansible",
+		"description": "Spins off a CentOS VM using vagrant, and provisions the app with vagrant-ansible provisioner.",
+		"tags": [
+			"nginx",
+			"ansible",
+			"vagrant",
+			"centos"
+		]
+	},
+	{
+		"name": "Docker with Docker Compose",
+		"github": "https://github.com/todo-deploy/todo-deploy-docker-compose",
+		"description": "Runs two containers - one for the application, one for mongo, using docker-compose",
+		"tags": [
+			"docker",
+			"docker-compose"
+		]
+	},
+	{
+		"name": "Kubernetes Locally",
+		"github": "https://github.com/todo-deploy/todo-deploy-kubernetes",
+		"description": "Kubernetes installation using Kube bundled with Docker for Mac. Creates the app Service and a Mongo Replica Set. Most of it will work in the cloud as well",
+		"tags": [
+			"docker",
+			"kubernetes"
+		]
+	}
+]
