@@ -33,7 +33,8 @@
 		"github": "https://github.com/todo-deploy/todo-deploy-heroku-cli",
 		"description": "Heroku deployment using the Heroku CLI. Automatically provisions a MongoLab database instance",
 		"tags": [
-			"heroku"
+			"heroku",
+			"mongolab"
 		]
 	}
 ]
