@@ -5,7 +5,13 @@ export default () => {
   return (
     <div>
       <Navbar className="justify-content-end" bg="light" expand="lg">
-        <Navbar.Brand href="/">todo-deploy</Navbar.Brand>
+        <Navbar.Brand href="/">
+          <img
+            alt=""
+            src="/static/rocket.jpeg"
+          />
+          {' todo-deploy'}
+        </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="mr-auto">

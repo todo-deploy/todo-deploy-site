@@ -13,14 +13,18 @@ h4 {
 
 .navbar-brand {
 	font-weight: bold;
-	font-size: 25px;
+  font-size: 25px;
+  padding-top: 0;
+}
+
+.navbar .navbar-brand img {
+  height: 30px;
+  width: 30px;
 }
 
 nav {
   margin-bottom: 20px;
 }
-
-
 
 .implementation-buttons {
   margin: 0 10px 0 10px;
