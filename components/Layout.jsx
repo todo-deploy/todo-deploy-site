@@ -10,6 +10,7 @@ export default ({ children }) => {
       <Head>
         <title>Todo-Deploy</title>
         <meta name='viewport' content='width=device-width, initial-scale=1' />
+        <link rel="icon" href="/static/favicon.ico"></link>
         <link
           rel='stylesheet'
           href='https://maxcdn.bootstrapcdn.com/bootstrap/latest/css/bootstrap.min.css'
