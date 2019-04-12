@@ -13,7 +13,16 @@
 	{
 		"name": "Docker with Docker Compose",
 		"github": "https://github.com/todo-deploy/todo-deploy-docker-compose",
-		"description": "Runs two containers - one for the application, one for mongo, using docker-compose",
+		"description": "Runs two containers - one for the application (built on the fly), one for mongo, using docker-compose",
+		"tags": [
+			"docker",
+			"docker-compose"
+		]
+	},
+	{
+		"name": "Docker with Docker Compose (image from DockerHub)",
+		"github": "https://github.com/todo-deploy/todo-deploy-docker-compose-dockerhub",
+		"description": "Runs two containers - one for the application (pulled from DockerHub), one for mongo, using docker-compose",
 		"tags": [
 			"docker",
 			"docker-compose"
