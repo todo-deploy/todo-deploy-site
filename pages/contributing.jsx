@@ -6,8 +6,8 @@ export default () => {
 			<h2>Contract</h2>
 			The contract for an implementation consists of two parts:
 			<ul>
-				<li><b>go.sh</b> - script that kicks off the provisioning process</li>
-				<li><b>tests</b> - clone the <a href="https://github.com/danielsiwiec/todo-deploy-tests">test</a> repo and run <code>npm install && npm test</code>. It is assumed, that once provisioned, the application is available at the IP 192.168.50.4</li>
+				<li><b>Makefile</b> - make file with <code>up</code> and <code>down</code> targets to kick off the provisioning and tear it down</li>
+				<li><b>tests</b> - clone the <a href="https://github.com/danielsiwiec/todo-deploy-tests">test</a> repo and run <code>npm install && npm test</code></li>
 			</ul>
 
 			<h2>Contributing</h2>
