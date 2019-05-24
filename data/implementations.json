@@ -1,13 +1,21 @@
 [
 	{
-		"name": "Vagrant-Ansible on CentOS 6.5",
-		"github": "https://github.com/todo-deploy/todo-deploy-vagrant-ansible",
-		"description": "Spins off a CentOS VM using vagrant, and provisions the app with vagrant-ansible provisioner.",
+		"name": "Elastic Beanstalk with Terraform",
+		"github": "https://github.com/todo-deploy/todo-deploy-elasticbeanstalk-terraform",
+		"description": "AWS Elastic Beanstalk deployment with Terraform, using MongoDB Atlas for DBaaS",
 		"tags": [
-			"nginx",
-			"ansible",
-			"vagrant",
-			"centos"
+			"aws",
+			"terraform",
+			"elasticbeanstalk"
+		]
+	},
+	{
+		"name": "Heroku",
+		"github": "https://github.com/todo-deploy/todo-deploy-heroku-cli",
+		"description": "Heroku deployment using the Heroku CLI. Automatically provisions a MongoLab database instance",
+		"tags": [
+			"heroku",
+			"mongolab"
 		]
 	},
 	{
@@ -38,22 +46,14 @@
 		]
 	},
 	{
-		"name": "Heroku",
-		"github": "https://github.com/todo-deploy/todo-deploy-heroku-cli",
-		"description": "Heroku deployment using the Heroku CLI. Automatically provisions a MongoLab database instance",
+		"name": "Vagrant-Ansible on CentOS 6.5",
+		"github": "https://github.com/todo-deploy/todo-deploy-vagrant-ansible",
+		"description": "Spins off a CentOS VM using vagrant, and provisions the app with vagrant-ansible provisioner.",
 		"tags": [
-			"heroku",
-			"mongolab"
-		]
-	},
-	{
-		"name": "Elastic Beanstalk with Terraform",
-		"github": "https://github.com/todo-deploy/todo-deploy-elasticbeanstalk-terraform",
-		"description": "AWS Elastic Beanstalk deployment with Terraform, using MongoDB Atlas for DBaaS",
-		"tags": [
-			"aws",
-			"terraform",
-			"elasticbeanstalk"
+			"nginx",
+			"ansible",
+			"vagrant",
+			"centos"
 		]
 	}
 ]
