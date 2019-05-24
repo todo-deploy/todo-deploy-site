@@ -45,5 +45,15 @@
 			"heroku",
 			"mongolab"
 		]
+	},
+	{
+		"name": "Elastic Beanstalk with Terraform",
+		"github": "https://github.com/todo-deploy/todo-deploy-elasticbeanstalk-terraform",
+		"description": "AWS Elastic Beanstalk deployment with Terraform, using MongoDB Atlas for DBaaS",
+		"tags": [
+			"aws",
+			"terraform",
+			"elasticbeanstalk"
+		]
 	}
 ]
