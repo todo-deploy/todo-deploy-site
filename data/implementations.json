@@ -10,6 +10,16 @@
 		]
 	},
 	{
+		"name": "Elastic Beanstalk with Cloud Formation",
+		"github": "https://github.com/todo-deploy/todo-deploy-elasticbeanstalk-cloudformation",
+		"description": "AWS Elastic Beanstalk deployment with Cloud Formation, with a deployed MongoDB replica set",
+		"tags": [
+			"aws",
+			"cloudformation",
+			"elasticbeanstalk"
+		]
+	},
+	{
 		"name": "Heroku",
 		"github": "https://github.com/todo-deploy/todo-deploy-heroku-cli",
 		"description": "Heroku deployment using the Heroku CLI. Automatically provisions a MongoLab database instance",
